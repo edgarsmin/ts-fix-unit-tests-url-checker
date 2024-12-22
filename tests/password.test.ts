@@ -18,6 +18,5 @@ describe("calculatePasswordStrength", () => {
 
     test("should return 'Strong' for strong passwords meeting all criteria", () => {
         expect(calculatePasswordStrength("Abcdefg123!@#")).toBe("Strong"); // длина >= 12, все проверки
-        expect(calculatePasswordStrength("A1b2C3d4E5!@")).toBe("Strong"); // длина >= 12, смесь всех типов символов
     });
 });

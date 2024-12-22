@@ -1,5 +1,4 @@
 export function calculatePasswordStrength(password: string): string {
-
     let strength = 0;
 // Check for basic length requirement
     if (password.length >= 8) strength += 1;
